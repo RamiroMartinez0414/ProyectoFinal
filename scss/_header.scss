@@ -1,0 +1,42 @@
+header{
+    background-color: rgb(107, 95, 95);
+    grid-area: header;
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li{
+    font-size: 20px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: segundoColor;
+}
+
+nav{
+    background-color: rgb(107, 95, 95);
+}
+
+.menu ul li a:hover{
+    color: white;
+}
+
+}
